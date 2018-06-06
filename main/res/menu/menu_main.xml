@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_planner"
+        android:icon="@drawable/ic_launcher"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_1"
+        android:icon="@mipmap/ic_launcher1"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_2"
+        android:title="About TravelMate"
+        app:showAsAction="never"/>
+
+
+</menu>
